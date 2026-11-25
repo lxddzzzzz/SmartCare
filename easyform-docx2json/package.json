@@ -1,0 +1,35 @@
+{
+  "name": "easyform-docx2json",
+  "version": "1.0.0",
+  "description": "Convert Word (.docx) clinical forms into easyform designer-importable JSON — auto-layout, field naming, checkbox grouping.",
+  "main": "easyform-docx2json.js",
+  "bin": {
+    "easyform-docx2json": "easyform-docx2json.js"
+  },
+  "scripts": {
+    "convert": "node easyform-docx2json.js",
+    "preview": "node preview_html.js",
+    "check": "node check_json.js",
+    "validate": "node validate_json.js"
+  },
+  "keywords": [
+    "docx",
+    "easyform",
+    "form-designer",
+    "json",
+    "clinical",
+    "ehr",
+    "word-to-json",
+    "layout",
+    "medical-form"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.1",
+    "fast-xml-parser": "^5.11.1",
+    "pinyin-pro": "^3.29.4"
+  }
+}

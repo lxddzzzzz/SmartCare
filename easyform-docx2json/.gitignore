@@ -1,0 +1,11 @@
+node_modules/
+生成结果/
+output/
+*.png
+*.jpg
+*.docx
+*.preview.html
+.env
+.DS_Store
+Thumbs.db
+designer_shot.png
